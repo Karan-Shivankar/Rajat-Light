@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajat Light - Professional DJ Lighting Services</title>
+    <title>Rajat Lights - Professional DJ Lighting Services</title>
     <style>
         * {
             margin: 0;
@@ -334,6 +334,31 @@
             color: #ff0096;
         }
 
+        /* Clickable Contact Links */
+        .contact-link {
+            color: #00ffff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+            margin: 0.5rem 0;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            background: rgba(0, 255, 255, 0.1);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+        }
+
+        .contact-link:hover {
+            color: #ff0096;
+            background: rgba(255, 0, 150, 0.2);
+            border-color: rgba(255, 0, 150, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 0, 150, 0.3);
+        }
+
+        .contact-link:active {
+            transform: translateY(0);
+        }
+
         /* Social Media */
         .social-links {
             display: flex;
@@ -439,7 +464,7 @@
 
     <header>
         <nav>
-            <div class="logo">RAJAT LIGHT</div>
+            <div class="logo">RAJAT LIGHT's</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
@@ -452,7 +477,7 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content">
-                <h1>RAJAT LIGHT</h1>
+                <h1>RAJAT LIGHT's</h1>
                 <p>Professional DJ Lighting Services</p>
                 <p>Transform Your Event with Spectacular Light Shows</p>
                 <a href="#contact" class="cta-button">Book Your Event Now</a>
@@ -519,8 +544,8 @@
                         <p>Colorful and fun lighting setup for birthday celebrations</p>
                     </div>
                 </div>
-                <div class="photo-item" onclick="openLightbox('https://thumbs.dreamstime.com/b/big-sound-system-concert-stage-generative-ai-high-quality-illustration-267365597.jpg')">
-                    <img src="https://thumbs.dreamstime.com/b/big-sound-system-concert-stage-generative-ai-high-quality-illustration-267365597.jpg" alt="DJ Setup with LEDs" loading="lazy">
+                <div class="photo-item" onclick="openLightbox('DJ.jpg')">
+                    <img src="DJ.jpg" alt="DJ Setup with LEDs" loading="lazy">
                     <div class="photo-overlay">
                         <h3>DJ Setup</h3>
                         <p>Complete DJ setup with stunning LED light arrangements</p>
@@ -533,8 +558,8 @@
                         <p>High-energy concert lighting with spectacular effects</p>
                     </div>
                 </div>
-                <div class="photo-item" onclick="openLightbox('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800&h=600&fit=crop')">
-                    <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400&h=300&fit=crop" alt="Outdoor Event Setup" loading="lazy">
+                <div class="photo-item" onclick="openLightbox('rajat.jpg')">
+                    <img src="rajat.jpg" alt="Outdoor Event Setup" loading="lazy">
                     <div class="photo-overlay">
                         <h3>Outdoor Event</h3>
                         <p>Beautiful outdoor event lighting for open-air celebrations</p>
@@ -563,35 +588,35 @@
                 <div class="contact-card">
                     <div class="contact-icon">📱</div>
                     <h3>Phone</h3>
-                    <p> ☎️ +91 9689069964</p>
-                
+                    <a href="tel:+919689069964" class="contact-link">📞 Call Now: +91 9689069964</a>
+                    <a href="https://wa.me/919689069964" class="contact-link" target="_blank">💬 WhatsApp</a>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">📩</div>
                     <h3>Email</h3>
+                    <a href="mailto:rajatlight@gmail.com" class="contact-link">✉️ Send Email</a>
                     <p>rajatlight@gmail.com</p>
-                   
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">📍</div>
                     <h3>Location</h3>
-                    <p>DJ Equipment & Lighting</p>
-                    <p>Available across the city Sadak Arjuni Gondia,441807</p>
+                    <p>Available across the city Wadegaon Sadak Arjuni Gondia,441807</p>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">🕐</div>
                     <h3>Working Hours</h3>
-                    <p>Mon - Sun: 10:00 AM - 11:00 PM</p>
+                    <p>DJ Equipment & Lighting</p>
+                    <p>Mon - Sun</p>
                     <p>24/7 for Events</p>
                 </div>
             </div>
 
             <div class="social-links">
-                <a href="https://www.instagram.com/rajat_lights_sadak_arjuni_21?igsh=ZXVhMDRucThzMWEy&utm_source=ig_contact_invite" class="social-link">📷</a>
-                <a href="#" class="social-link">🐦</a>
+                <a href="https://www.instagram.com/rajat_lights_sadak_arjuni_21?igsh=ZXVhMDRucThzMWEy&utm_source=ig_contact_invite" class="social-link" target="_blank">📷</a>
+           <!-- <a href="#" class="social-link">🐦</a>
                 <a href="#" class="social-link">📘</a>
                 <a href="#" class="social-link">📺</a>
-                <a href="#" class="social-link">💬</a>
+                <a href="#" class="social-link">💬</a> -->
             </div>
         </section>
     </main>
